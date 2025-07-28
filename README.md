@@ -81,7 +81,7 @@ Region
 
 Connected slicers to all pivot tables for interactive filtering.
 
-![Library_project](https://github.com/philoooo/Library-Management-System/blob/main/pexels-ivo-rainha-527110-1290141.jpg)
+![Finsihed Bike Sales Dashboard](https://github.com/philoooo/Bike-Sales-Dashboard/blob/main/BikeDashboard.PNG)
 
 📝 Report Analysis
 Married customers earn between ~$4k–9k more than their single counterparts.
