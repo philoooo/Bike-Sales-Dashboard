@@ -14,14 +14,14 @@ The Excel workbook includes four sheets:
 ---
 ![Raw Data on bike customers](https://github.com/philoooo/Bike-Sales-Dashboard/blob/main/RawData_BikeData.PNG)
 ## 🧹 Data Cleaning
-- **Removed 26 duplicates** using Excel Data Tools.
-- **Clarified values** in `Married Status` column:
+- **The first thing I did was removed 26 duplicates** using Excel Data Tools.
+- **Then I used Find and Replce to clarified values:** In `Married Status` column:
   - `'M' → 'Married'`
   - `'S' → 'Single'`
-- **Clarified values** in `Gender` column:
+- **And then:** in `Gender` column:
   - `'F' → 'Female'`
   - `'M' → 'Male'`
-- **Added new column `Age Brackets`** to group ages:
+- **Next I added a new column called `Age Brackets`** to group ages so they could be better quantified for analysis:
   ```excel
   =IF(L2>55, "Old", IF(L2>=31, "Middle Age", IF(L2<31, "Adolescent", "Invalid")))
 (Here, L2 is the original Age column)
