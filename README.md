@@ -38,7 +38,6 @@ Columns: Bike Purchased (Y/N).
 
 Chart: 2D Clustered Column with data table and color adjustments.
 
-📸 [Insert screenshot of pivot table & chart]
 
 2. Commute Distance of Customers
 Values: Count of Purchased Bikes.
@@ -60,7 +59,6 @@ Columns: Bike Purchased (Y/N).
 
 Chart: Line chart with styling adjustments.
 
-![Library_project](https://github.com/philoooo/Library-Management-System/blob/main/pexels-ivo-rainha-527110-1290141.jpg)
 
 📈 Dashboard
 Copied and arranged all three charts on a dedicated Dashboard sheet.
