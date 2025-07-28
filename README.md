@@ -61,24 +61,9 @@ Chart: Line chart with styling adjustments.
 ![Formatted Pivot Tables](https://github.com/philoooo/Bike-Sales-Dashboard/blob/main/pv3.PNG)
 
 
-📈 Dashboard
-Copied and arranged all three charts on a dedicated Dashboard sheet.
-
-Removed gridlines for a cleaner layout.
-
-Added a header and title.
-
-Aligned and formatted charts for consistency.
-
-Inserted slicers for filtering by:
-
-Married Status
-
-Education
-
-Region
-
-Connected slicers to all pivot tables for interactive filtering.
+## 📈 Dashboard
+ First, I copied and arranged all three charts on a dedicated Dashboard sheet. I need to removed gridlines for a cleaner layout and add a header and title for the dashboard.
+Once I coped in all 3 pivot tables, I aligned and formatted the charts for consistency. Then, I inserted slicers for filtering by: Married Status, Education, Region, and home ownership. I made sure to connect the slicers to all pivot tables for interactive filtering.
 
 ![Finsihed Bike Sales Dashboard](https://github.com/philoooo/Bike-Sales-Dashboard/blob/main/BikeDashboard.PNG)
 
