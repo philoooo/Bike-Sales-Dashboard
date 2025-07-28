@@ -26,7 +26,7 @@ The Excel workbook includes four sheets:
   =IF(L2>55, "Old", IF(L2>=31, "Middle Age", IF(L2<31, "Adolescent", "Invalid")))
 (Here, L2 is the original Age column)
 
-![Library_project](https://github.com/philoooo/Library-Management-System/blob/main/pexels-ivo-rainha-527110-1290141.jpg)
+![Library_project](https://github.com/philoooo/Bike-Sales-Dashboard/blob/main/RawData_BikeData.PNG)
 
 📊 Pivot Tables & Charts
 1. Average Income by Gender & Bike Purchase
