@@ -1,6 +1,6 @@
 # 🚴 Bike Sales Dashboard
 
-This project analyzes customer demographics and purchasing patterns for a bike shop using Excel. It includes **data cleaning**, **pivot table analysis**, and an interactive **dashboard** for visualization.
+This project analyzes customer demographics and purchasing patterns for a bike customers using Excel. It includes **data cleaning**, **pivot table analysis**, and an interactive **dashboard** for visualization.
 
 ---
 
@@ -12,7 +12,7 @@ The Excel workbook includes four sheets:
 4. **Dashboard** – Visual dashboard built from pivot charts.
 
 ---
-
+![Raw Data on bike customers](https://github.com/philoooo/Bike-Sales-Dashboard/blob/main/RawData_BikeData.PNG)
 ## 🧹 Data Cleaning
 - **Removed 26 duplicates** using Excel Data Tools.
 - **Clarified values** in `Married Status` column:
@@ -26,7 +26,7 @@ The Excel workbook includes four sheets:
   =IF(L2>55, "Old", IF(L2>=31, "Middle Age", IF(L2<31, "Adolescent", "Invalid")))
 (Here, L2 is the original Age column)
 
-![Library_project](https://github.com/philoooo/Bike-Sales-Dashboard/blob/main/RawData_BikeData.PNG)
+
 
 📊 Pivot Tables & Charts
 1. Average Income by Gender & Bike Purchase
