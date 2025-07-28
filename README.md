@@ -26,7 +26,7 @@ The Excel workbook includes four sheets:
   =IF(L2>55, "Old", IF(L2>=31, "Middle Age", IF(L2<31, "Adolescent", "Invalid")))
 (Here, L2 is the original Age column)
 
-📸 [Insert screenshot of cleaned Working Data here]
+![Library_project](https://github.com/philoooo/Library-Management-System/blob/main/pexels-ivo-rainha-527110-1290141.jpg)
 
 📊 Pivot Tables & Charts
 1. Average Income by Gender & Bike Purchase
@@ -49,7 +49,7 @@ Columns: Bike Purchased (Y/N).
 
 Chart: Line chart with adjusted elements and color-blind-friendly palette.
 
-📸 [Insert screenshot of pivot table & chart]
+![Library_project](https://github.com/philoooo/Library-Management-System/blob/main/pexels-ivo-rainha-527110-1290141.jpg)
 
 3. Age Brackets of Customers
 Values: Count of Purchased Bikes.
@@ -60,7 +60,7 @@ Columns: Bike Purchased (Y/N).
 
 Chart: Line chart with styling adjustments.
 
-📸 [Insert screenshot of pivot table & chart]
+![Library_project](https://github.com/philoooo/Library-Management-System/blob/main/pexels-ivo-rainha-527110-1290141.jpg)
 
 📈 Dashboard
 Copied and arranged all three charts on a dedicated Dashboard sheet.
@@ -81,7 +81,7 @@ Region
 
 Connected slicers to all pivot tables for interactive filtering.
 
-📸 [Insert screenshot of full dashboard]
+![Library_project](https://github.com/philoooo/Library-Management-System/blob/main/pexels-ivo-rainha-527110-1290141.jpg)
 
 📝 Report Analysis
 Married customers earn between ~$4k–9k more than their single counterparts.
