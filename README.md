@@ -1,37 +1,3 @@
-# Bike-Sales-Dashboard
-#Created4 Excel sheets. 1. Raw data 2. Working Data 3. Pivot Table 4. Dashboard
-#Data cleaning
-#Removed 26 duplicates using data tools
-#Using find and replace to clarify values in Married Status column from 'M' and 'S' to 'Married' and 'Single'
-#Using Find and Replace, claridy values in Gender column from 'F' and 'M" to "Female' and 'Male'
-#Insert new column called "Age Brackets" to better quantify age for data analysis. Using nested IF function "=IF(L2>55,"Old",IF(L2>=31,"Middle Age",IF(L2<31,"Adolescent","Invalid")))" using prior Age column "L2"
-
-#Create Pivot Table and charts
-#First Pivot table  will  be showing Average Income and Gender of Bike Purchasers. values is the averageo the income column, gender is rows and Bike Purchased(Y/N) is columns. 
-#Second Pivot table will be showing the commutes of customers in the bike shop. the vales is the count of purchased bikes, the column is the purchased bikes(No or Yes) and the rows in the commute distance. 
-#Third pivot table will be showing the age range of the bike shop customers. the vales is the count of purchased bikes, the column is the purchased bikes(No or Yes) and the rows is the age brackets column
-
-#From first pivot table, creared 2D cluster column chart, adjusted chart elements, add data table. 
-#From second pivot table, create line chart, adjusting chart elements. 
-#From the third pivot table, i created another line chart, adjusting chart elements. 
-#changed chart colors to for colorblindness. 
-
-#Dashboard
-#Copied 3 charts
-#Removed gridlines
-#Create header and dashboard title
-#align format of charts from top
-#insert slicer analysing married status, education, region. reporting connections for all pivot tables. 
-
-
-
-#Report Analysis:
-#Married customers are making between ~4-9k more than their single counterparts. The greatest differce is between single and married men who don't purchase a bike, the value being an 9k. This shows that single men are a lot less likley to purchase a bike from the shop, correlating to their income status. 
-#Customers in Europe have the smallest wealth disparity between gender as well as marital status, with North America having the greatest. This means that income is less of a factor for a customer in Europe to not purchase a bike. 
-#All regions show same trend where middle aged customers are the largest customer base that in the shops that purchase bikes. In Europe, the more often than not a customer will go into a the shop and purchase a bike. 
-#In Europe, most customers have a short commute 0-1miles, in north america it is distribute roughly evenly, and in pacific people tend to have a short 0-1 mile or 5-10 mile commute. 
-#Customers that aren't home owners tend to have a shorter commute, and also purchase bikes more often then home owners.
-#General trend where people with lower education tend to buy buy more bikes then people with higher education. 
 # 🚴 Bike Sales Dashboard
 
 This project analyzes customer demographics and purchasing patterns for a bike shop using Excel. It includes **data cleaning**, **pivot table analysis**, and an interactive **dashboard** for visualization.
