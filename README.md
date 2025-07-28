@@ -37,7 +37,7 @@ Rows: Gender.
 Columns: Bike Purchased (Y/N).
 
 Chart: 2D Clustered Column with data table and color adjustments.
-
+![First Pivot Table](https://github.com/philoooo/Bike-Sales-Dashboard/blob/main/PV1.PNG)
 
 2. Commute Distance of Customers
 Values: Count of Purchased Bikes.
@@ -47,7 +47,7 @@ Rows: Commute Distance.
 Columns: Bike Purchased (Y/N).
 
 Chart: Line chart with adjusted elements and color-blind-friendly palette.
-
+![Formatted Pivot Tables](https://github.com/philoooo/Bike-Sales-Dashboard/blob/main/pv2.PNG)
 
 3. Age Brackets of Customers
 Values: Count of Purchased Bikes.
@@ -58,7 +58,7 @@ Columns: Bike Purchased (Y/N).
 
 Chart: Line chart with styling adjustments.
 
-![Formatted Pivot Tables](https://github.com/philoooo/Bike-Sales-Dashboard/blob/main/Pivot%20Tables_Bikes.PNG)
+![Formatted Pivot Tables](https://github.com/philoooo/Bike-Sales-Dashboard/blob/main/pv3.PNG)
 
 
 📈 Dashboard
@@ -82,7 +82,8 @@ Connected slicers to all pivot tables for interactive filtering.
 
 ![Finsihed Bike Sales Dashboard](https://github.com/philoooo/Bike-Sales-Dashboard/blob/main/BikeDashboard.PNG)
 
-📝 Report Analysis
+## 📝 Report Analysis
+
 Married customers earn between ~$4k–9k more than their single counterparts.
 The largest difference is among single vs. married men who did not purchase a bike, with a gap of $9k.
 This suggests that single men are less likely to purchase bikes, potentially due to income differences.
