@@ -49,7 +49,7 @@ Columns: Bike Purchased (Y/N).
 
 Chart: Line chart with adjusted elements and color-blind-friendly palette.
 
-![Library_project](https://github.com/philoooo/Library-Management-System/blob/main/pexels-ivo-rainha-527110-1290141.jpg)
+![Formatted Pivot Tables](https://github.com/philoooo/Bike-Sales-Dashboard/blob/main/Pivot%20Tables_Bikes.PNG)
 
 3. Age Brackets of Customers
 Values: Count of Purchased Bikes.
