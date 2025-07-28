@@ -13,8 +13,8 @@ The Excel workbook includes four sheets:
 
 ---
 ![Raw Data on bike customers](https://github.com/philoooo/Bike-Sales-Dashboard/blob/main/RawData_BikeData.PNG)
-## 🧹 Data Cleaning
-- **The first thing I did was removed 26 duplicates** using Excel Data Tools.
+## Data Cleaning:
+- **Using Excel Data Tools, I removed 26 duplicate rows.**
 - **Then I used Find and Replce to clarified values:** In `Married Status` column:
   - `'M' → 'Married'`
   - `'S' → 'Single'`
