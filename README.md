@@ -12,74 +12,80 @@ The Excel workbook includes four sheets:
 4. **Dashboard** – Visual dashboard built from pivot charts.
 
 ---
+**Raw Data**
 ![Raw Data on bike customers](https://github.com/philoooo/Bike-Sales-Dashboard/blob/main/RawData_BikeData.PNG)
 ## Data Cleaning:
 1. **Using Excel Data Tools, I removed 26 duplicate rows.**
-2. **Used Find and Replce to clarified values:**
-  - **In `Married Status` column:**
-  - `'M' → 'Married'`
-  - `'S' → 'Single'`
-  - **In `Gender` column:**
-  - `'F' → 'Female'`
-  - `'M' → 'Male'`
-3. **Next I added a new column called `Age Brackets`** to group ages so they could be better quantified for analysis:
+2. **Used Find and Replce to clarify value names:**
+  - **In the `Married Status` column:**
+       - `'M' → 'Married'`
+       - `'S' → 'Single'`
+  - **In the `Gender` column:**
+       - `'F' → 'Female'`
+       - `'M' → 'Male'`
+3. **Added a new column called `Age Brackets` using nested functions** Grouped ages so they could be better quantified for analysis, where L2 is the original Age column.:
   ```excel
-  =IF(L2>55, "Old", IF(L2>=31, "Middle Age", IF(L2<31, "Adolescent", "Invalid"))) where L2 is the original Age column.
+  =IF(L2>55, "Old", IF(L2>=31, "Middle Age", IF(L2<31, "Adolescent", "Invalid")))
+  ```
 
+**Cleaned Working Data**
 ![Cleaned Working Data](https://github.com/philoooo/Bike-Sales-Dashboard/blob/main/Working%20Data_BikeData.PNG)
 
-📊 Pivot Tables & Charts
-1. Average Income by Gender & Bike Purchase
+---
+## Pivot Tables & Charts
+1. First Pivot Table explores the Average Income by Gender & Bike Purchase
 Values: Average of Income.
 Rows: Gender.
 Columns: Bike Purchased (Y/N).
 
-Chart: 2D Clustered Column with data table and color adjustments.
+Chart: 2D Clustered Column with data table. (All charts used colorblind-safe palette to ensure accessibility)
 ![First Pivot Table](https://github.com/philoooo/Bike-Sales-Dashboard/blob/main/PV1.PNG)
 
-2. Commute Distance of Customers
+2. Second Pivot Table explores the Commute Distance of Customers
 Values: Count of Purchased Bikes.
 Rows: Commute Distance.
 Columns: Bike Purchased (Y/N).
 
-Chart: Line chart with adjusted elements and color-blind-friendly palette.
-![Formatted Pivot Tables](https://github.com/philoooo/Bike-Sales-Dashboard/blob/main/pv2.PNG)
+Chart: Line chart with adjusted elements.
+![Second Pivot Table](https://github.com/philoooo/Bike-Sales-Dashboard/blob/main/PV1.PNG) 
 
-3. Age Brackets of Customers
+3. Third Pivot Table explores the Age Brackets of Customers
 Values: Count of Purchased Bikes.
 Rows: Age Brackets.
 Columns: Bike Purchased (Y/N).
 
 Chart: Line chart with styling adjustments.
-![Formatted Pivot Tables](https://github.com/philoooo/Bike-Sales-Dashboard/blob/main/pv3.PNG)
+![Third Pivot Table](https://github.com/philoooo/Bike-Sales-Dashboard/blob/main/pv3.PNG)
 
+---
 
-## 📈 Dashboard
+## Dashboard
 To assemble my dashboard, I copied and arranged all three charts on a dedicated Dashboard sheet. I need to removed gridlines for a cleaner layout and add a header and title for the dashboard.
 Once I coped in all 3 pivot tables, I aligned and formatted the charts for consistency. Then, I inserted slicers for filtering by: Married Status, Education, Region, and home ownership. I made sure to connect the slicers to all pivot tables for interactive filtering.
 
 ![Finsihed Bike Sales Dashboard](https://github.com/philoooo/Bike-Sales-Dashboard/blob/main/BikeDashboard.PNG)
 
-## Reports and Findings
+---
 
-Income and Marital Status:
-Married customers typically earn $4k–$9k more than their single counterparts.
-The most significant gap—around $9k—is observed between single and married men who did not purchase a bike.
-This suggests that single men are less likely to purchase bikes, potentially due to income differences.
+## Findings
 
-Regional Insights:
-Europe shows the smallest wealth gap between genders and marital statuses, while North America has the largest disparity.
-This indicates that income is less of a deciding factor for bike purchases in Europe compared to other regions.
+- **Income & Marital Status**: Married customers typically earn **$4k–$9k more** than single customers. Single men who did not purchase a bike show the largest gap, around **$9k**, indicating income may affect their likelihood of buying a bike.  
+- **Regional Insights**: **Europe** has the smallest income gap between genders and marital statuses, while **North America** shows the largest disparities.  
+- **Age Trends**: **Middle-aged customers** are the dominant group of bike purchasers across all regions, and in Europe, most customers who enter the store end up purchasing a bike.  
+- **Commute Patterns**: Commutes vary by region—**short commutes (0–1 miles)** are common in Europe, while the Pacific region sees a mix of **0–1 miles** and **5–10 miles**.  
+- **Homeownership**: Non-homeowners tend to have **shorter commutes** and are **more likely to purchase bikes** compared to homeowners.  
+- **Education Level**: Customers with **lower education levels** buy more bikes compared to those with higher education.
 
-Age Trends:
-Across all regions, middle-aged customers represent the largest group of bike purchasers.
-In Europe, most customers who visit the shop end up buying a bike.
+---
 
-Commute Patterns:
-In Europe, most customers have a short commute (0–1 miles). In North America, commute distances are more evenly distributed. In the Pacific region, customers typically have either a short (0–1 miles) or medium (5–10 miles) commute.
+## Reports
 
-Homeownership:
-Customers who do not own homes tend to have shorter commutes and are more likely to purchase bikes compared to homeowners.
+- **Sales Overview**: A breakdown of income, gender, and marital status reveals which groups purchase bikes most often.  
+- **Trend Analysis**: Pivot tables highlight age group preferences, commute distances, and regional purchasing patterns.  
+- **Customer Insights**: Insights into how factors like homeownership, education level, and income affect bike purchase behavior.
 
-Education Level:
-There is a noticeable trend where customers with lower education levels purchase more bikes than those with higher education.
+---
+
+## Conclusion
+
+This project demonstrates how Excel can be used for **data cleaning, pivot table analysis, and dashboard building** to uncover customer trends. The findings—like the connection between income, age, and bike purchasing behavior—could help a bike shop better target its marketing and sales strategies. The interactive dashboard and slicers make it easy to explore patterns and gain actionable insights.
