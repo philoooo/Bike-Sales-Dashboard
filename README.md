@@ -67,20 +67,20 @@ Once I coped in all 3 pivot tables, I aligned and formatted the charts for consi
 
 ![Finsihed Bike Sales Dashboard](https://github.com/philoooo/Bike-Sales-Dashboard/blob/main/BikeDashboard.PNG)
 
-## 📝 Report Analysis
+## Reports and Findings
 
-Married customers earn between ~$4k–9k more than their single counterparts.
-The largest difference is among single vs. married men who did not purchase a bike, with a gap of $9k.
+Income and Marital Status:
+Married customers typically earn $4k–$9k more than their single counterparts.
+The most significant gap—around $9k—is observed between single and married men who did not purchase a bike.
 This suggests that single men are less likely to purchase bikes, potentially due to income differences.
 
 Regional Insights:
-
-Europe shows the smallest wealth gap between gender and marital status.
-Income is less of a factor in bike purchases compared to North America, which has the greatest disparity.
+Europe shows the smallest wealth gap between genders and marital statuses, while North America has the largest disparity.
+This indicates that income is less of a deciding factor for bike purchases in Europe compared to other regions.
 
 Age Trends:
-Across all regions, middle-aged customers are the largest group purchasing bikes.
-In Europe, most customers entering the shop end up buying a bike.
+Across all regions, middle-aged customers represent the largest group of bike purchasers.
+In Europe, most customers who visit the shop end up buying a bike.
 
 Commute Patterns:
 
@@ -88,10 +88,10 @@ In Europe, most customers have a short commute (0–1 miles).
 
 In North America, commute distances are more evenly distributed.
 
-In the Pacific region, most customers have either a short (0–1 miles) or 5–10 miles commute.
+In the Pacific region, customers typically have either a short (0–1 miles) or medium (5–10 miles) commute.
 
-Homeowners vs. Renters:
-Customers who aren’t homeowners tend to have shorter commutes and are more likely to purchase bikes.
+Homeownership:
+Customers who do not own homes tend to have shorter commutes and are more likely to purchase bikes compared to homeowners.
 
 Education Level:
-There’s a trend where customers with lower education levels purchase more bikes compared to those with higher education.
+There is a noticeable trend where customers with lower education levels purchase more bikes than those with higher education.
