@@ -1,4 +1,4 @@
-# 🚴 Bike Sales Dashboard
+# 🚴 Bike Sales Dashboard Using Excel
 
 This project analyzes customer demographics and purchasing patterns for a bike customers using Excel. It includes **data cleaning**, **pivot table analysis**, and an interactive **dashboard** for visualization.
 
